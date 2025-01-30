@@ -7,6 +7,122 @@
     --light: #F6F4F9;
     --dark: #04000B;
 }
+.loader {
+  border: 8px solid #f3f3f3; /* Light gray */
+  border-top: 8px solid #1e00fd; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the screen */
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #f1f5f9;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #007bff;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.hero-section .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+}
+
+/* About Section */
+.about-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #007bff;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+/* Programs Section */
+.programs-section .program-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.programs-section .program-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.programs-section h5 {
+  font-size: 1.25rem;
+  color: #007bff;
+}
+
+.programs-section p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  background-color: #f8f9fa;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.testimonial-card p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .programs-section .col-lg-4 {
+    margin-bottom: 20px;
+  }
+
+  .testimonial-card {
+    margin-bottom: 15px;
+  }
+}
+
 
 .poppins-thin {
     font-family: "Poppins", sans-serif;
@@ -323,6 +439,10 @@ h6,
   display: none; /* Hide scrollbar in WebKit browsers */
 }
 
+.orange-cl{
+  background: #ff8000;
+}
+
 .dropdown-item.active {
   font-weight: bold;
   background: linear-gradient(to right, #8000ff, #ff8000);
@@ -435,8 +555,8 @@ h6,
 }
 
 .contact-info img {
-  width: 300px;
-  height: 225px;
+  width: 800px;
+  height: 450px;
   margin-bottom: 20px;
 }
 

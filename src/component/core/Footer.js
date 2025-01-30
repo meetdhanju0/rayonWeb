@@ -1,8 +1,7 @@
-import React from 'react'
-import Image from 'rc-image'
+import React from 'react';
+import Image from 'rc-image';
 import { Link } from 'react-router-dom';
 import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-
 
 const Footer = () => {
     return (
@@ -12,13 +11,15 @@ const Footer = () => {
                     <div className="row g-5">
                         <div className="col-md-6 col-lg-3">
                             <p className="section-title text-white h5 mb-4">Address<span /></p>
-                            <p><i className="fa fa-map-marker-alt me-3" />sector 71 Mohali India</p>
+                            <p><i className="fa fa-map-marker-alt me-3" />Head Office: Mohali, India</p>
+                            <p><i className="fa fa-map-marker-alt me-3" />Sales Office: Sri Ganganagar, India</p>
+                            <p><i className="fa fa-map-marker-alt me-3" />Sales Office: Canada</p>
                             <p><i className="fa fa-envelope me-3" />info@rayonweb.com</p>
                             <div className="d-flex pt-2">
                                 <Link className="btn btn-outline-light btn-social" to="#"><FaTwitter size={20} /></Link>
                                 <Link className="btn btn-outline-light btn-social" to="#"><FaFacebookF size={20} /></Link>
                                 <Link className="btn btn-outline-light btn-social" to="#"><FaInstagram size={20} /></Link>
-                                <Link className="btn btn-outline-light btn-social" to="#"><FaLinkedinIn size={20} /></Link>
+                                <Link className="btn btn-outline-light btn-social" to="https://www.linkedin.com/company/rayon-web-solution"><FaLinkedinIn size={20} /></Link>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3">
@@ -58,15 +59,15 @@ const Footer = () => {
                     <div className="copyright">
                         <div className="row">
                             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                                © <Link className="border-bottom" to="#">Rayonweb solutions</Link>, All Right Reserved.
-                                Designed By <Link className="border-bottom" to="https://rayonweb.com">Rayonweb solutions</Link>
+                                © <Link className="border-bottom" to="#">Rayonweb Solutions</Link>, All Rights Reserved.
+                                Designed By <Link className="border-bottom" to="https://rayonweb.com">Rayonweb Solutions</Link>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-export default Footer
+export default Footer;

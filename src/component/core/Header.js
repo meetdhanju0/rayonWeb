@@ -153,6 +153,9 @@ const Header = () => {
                             <Link to="/contact" className={`nav-item nav-link ${pathname === '/contact' ? 'active' : ''}`}>
                                 Contact
                             </Link>
+                            <Link to="/training" className={`nav-item nav-link ${pathname === '/training' ? 'active' : ''}`}>
+                            Training
+                            </Link>
                             <Link to="/career" className={`nav-item nav-link ${pathname === '/career' ? 'active' : ''}`}>
                                 Career
                             </Link>

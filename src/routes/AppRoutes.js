@@ -12,6 +12,7 @@ const Policy = lazy(()=> import('../page/privacy-policy'))
 const FQblock = lazy(()=> import('../page/f&q'))
 const Footer = lazy(()=> import('../component/core/Footer'))
 const NotFound = lazy(()=> import('../page/NotFound'))
+const Training = lazy(()=> import('../page/Training'))
 
 //Services route
 const ServicePython = lazy(() => import('../page/services/web-development/python'))
@@ -56,6 +57,7 @@ const AppRoutes = () =>{
                 <Route path="/f&q" element={<FQblock/>}/>
                 <Route path="/privacy-policy" element={<Policy/>}/>
                 <Route path="/career" element={<Career/>}/>
+                <Route path="/training" element={<Training />}/>
                 <Route path="*" element={<NotFound/>}/>
 
                 {/* Services route */}
