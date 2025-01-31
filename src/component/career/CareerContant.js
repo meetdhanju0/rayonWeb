@@ -1,7 +1,14 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
+
 
 const CareerContent = () => {
     return (
+        <>
+        <Helmet>
+        <title>Careers - Rayon Web Solutions</title>
+        <meta name="description" content="Explore exciting career opportunities and join our innovative team at Rayon Web Solutions." />
+      </Helmet>
         <section className="py-5">
             <div className="container my-5 py-5 px-lg-5">
                 {/* Section Header */}
@@ -43,6 +50,7 @@ const CareerContent = () => {
                 </div>
             </div>
         </section>
+        </>
     );
 }
 

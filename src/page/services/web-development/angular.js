@@ -1,9 +1,16 @@
 import React from "react";
 import { FaVuejs } from "react-icons/fa";
+import { Helmet } from 'react-helmet-async';
 
 
 const Angular = () => {
     return (
+        <>
+        <Helmet>
+        <title>Angular Development Solutions - Rayon Web Solutions</title>
+        <meta name="description" content="Expert Angular development solutions by Rayon Web Solutions. Build dynamic, feature-rich web applications for your business." />
+      </Helmet>
+        
         <div className="container-xxl py-5">
             <div className="container py-5 px-lg-5">
                 <div className="wow fadeInUp" data-wow-delay="0.1s">
@@ -56,6 +63,7 @@ const Angular = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

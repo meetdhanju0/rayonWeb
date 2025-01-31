@@ -1,5 +1,7 @@
 import React, { Suspense } from "react";
 import Image from "rc-image";
+import { Helmet } from 'react-helmet-async';
+
 
 // Loader component
 const Loader = () => (
@@ -11,6 +13,10 @@ const Loader = () => (
 const Training = () => {
   return (
     <Suspense fallback={<Loader />}>
+      <Helmet>
+        <title>Training Programs - Rayon Web Solutions</title>
+        <meta name="description" content="Join our expert-led training programs to advance your skills in web development, digital technologies, and software solutions." />
+      </Helmet>
       <section className="hero-section py-5 bg-light">
         <div className="container my-5 py-5 px-lg-5">
           <div className="row text-center">

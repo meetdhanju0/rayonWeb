@@ -1,9 +1,15 @@
 import React from "react";
 import { FaPhp, FaWordpress} from "react-icons/fa";
+import { Helmet } from 'react-helmet-async';
 
 
 const PHP = () => {
     return (
+        <>
+        <Helmet>
+        <title>PHP Development Solutions - Rayon Web Solutions</title>
+        <meta name="description" content="Expert PHP development solutions at Rayon Web Solutions. Build secure, scalable, and dynamic web applications tailored to your business needs." />
+      </Helmet>
         <div className="container-xxl py-5">
             <div className="container py-5 px-lg-5">
                 <div className="wow fadeInUp" data-wow-delay="0.1s">
@@ -56,6 +62,7 @@ const PHP = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

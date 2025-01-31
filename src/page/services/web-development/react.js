@@ -1,9 +1,16 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
+import { Helmet } from 'react-helmet-async';
 
 
 const ReactService = () => {
     return (
+        <>
+         <Helmet>
+        <title>React Development Solutions - Rayon Web Solutions</title>
+        <meta name="description" content="Discover cutting-edge React development solutions at Rayon Web Solutions. We create dynamic, responsive, and scalable web applications." />
+      </Helmet>
+        
         <div className="container-xxl py-5">
             <div className="container py-5 px-lg-5">
                 <div className="wow fadeInUp" data-wow-delay="0.1s">
@@ -56,6 +63,7 @@ const ReactService = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

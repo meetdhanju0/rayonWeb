@@ -18,6 +18,8 @@ const Loader = () => (
 
 const Index = () => {
     return(
+      <>
+      
         <Suspense fallback={<Loader/>}>
             <DynamicBanner />
             <DynamicSkills />
@@ -26,6 +28,7 @@ const Index = () => {
             <DynamicProjects />
             <DynamicTestimonialSection />
         </Suspense>
+        </>
     )
 }
 

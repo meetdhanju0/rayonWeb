@@ -2,6 +2,7 @@ import './App.css';
 import React, { useState, useEffect, Suspense, startTransition } from 'react';
 import { BiSolidUpvote } from 'react-icons/bi';
 
+
 const AppRoutes = React.lazy(() => import('./routes/AppRoutes'));
 const WhatsAppButton = React.lazy(() => import('./component/core/Whatsapp/WhatsApp'));
 
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <div>
+
       {/* Wrap async components with Suspense for lazy loading */}
       <Suspense fallback={<div className="loading-container"><div className="loader"></div></div>}>
         <AppRoutes />

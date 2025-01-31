@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<sitemap><loc>https://rayonweb.com/sitemap-0.xml</loc></sitemap>
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://rayonweb.com/</loc></url>
+<url><loc>https://rayonweb.com/about</loc></url>
+<url><loc>https://rayonweb.com/service</loc></url>
+<url><loc>https://rayonweb.com/portfolio</loc></url>
+<url><loc>https://rayonweb.com/contact</loc></url>
+<url><loc>https://rayonweb.com/privacy-policy</loc></url>
+<url><loc>https://rayonweb.com/career</loc></url>
+<url><loc>https://rayonweb.com/training</loc></url>
+<url><loc>https://rayonweb.com/services/python</loc></url>
+<url><loc>https://rayonweb.com/services/php</loc></url>
+<url><loc>https://rayonweb.com/services/react</loc></url>
+<url><loc>https://rayonweb.com/services/vue</loc></url>
+<url><loc>https://rayonweb.com/services/devops</loc></url>
+<url><loc>https://rayonweb.com/services/aws-s3</loc></url>
+<url><loc>https://rayonweb.com/services/aws-ec2</loc></url>
+<url><loc>https://rayonweb.com/services/aws-lambda</loc></url>
+</urlset>

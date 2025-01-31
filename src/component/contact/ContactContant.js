@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { BiLoaderCircle } from 'react-icons/bi';
+import { Helmet } from 'react-helmet-async';
 
 
 const ContactContant = () => {
@@ -57,6 +58,10 @@ const ContactContant = () => {
 
     return (
         <>
+         <Helmet>
+        <title>Contact Us - Rayon Web Solutions</title>
+        <meta name="description" content="Get in touch with Rayon Web Solutions for expert web development, digital solutions, or to discuss your next project." />
+      </Helmet>
             <div className="container-xxl py-5">
                 <div className="container py-5 px-lg-5">
                     <div className="wow fadeInUp" data-wow-delay="0.1s">
