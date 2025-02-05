@@ -3,10 +3,17 @@
 
 import React from "react";
 import { FaNodeJs } from "react-icons/fa";
+import { Helmet } from 'react-helmet-async';
 
 
 const Node = () => {
     return (
+        <>
+         <Helmet>
+        <title>Node.js Development Solutions - Rayon Web Solutions</title>
+        <meta name="description" content="Leverage expert Node.js development solutions from Rayon Web Solutions. Build scalable, fast, and high-performance backend systems." />
+      </Helmet>
+        
         <div className="container-xxl py-5">
             <div className="container py-5 px-lg-5">
                 <div className="wow fadeInUp" data-wow-delay="0.1s">
@@ -59,6 +66,7 @@ const Node = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

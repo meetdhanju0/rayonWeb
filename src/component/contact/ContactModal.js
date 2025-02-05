@@ -35,7 +35,7 @@ const ContactModal = ({show, handleClose}) => {
         setSuccessMessage('');
 
         emailjs.send(
-            'service_wqzvvnl',
+            'service_hbzevvo',
             'template_bvynfqg',
             {
                 name: formData.name,
@@ -43,7 +43,7 @@ const ContactModal = ({show, handleClose}) => {
                 subject: formData.subject,
                 message: formData.message,
             },
-            'tb1ZmJ7PCnRghiZiO'
+            'SqT44vVqpwTb018cW'
         ).then((result) => {
             setLoading(false);
             setSuccessMessage('Your message has been sent successfully!');

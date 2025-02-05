@@ -9,6 +9,8 @@ const DynamicService = lazy(() => import('../Home/ServiceSection'));
 const DynamicProjects = lazy(() => import('../Home/ProjectsSection'));
 const DynamicTestimonialSection = lazy(() => import('../Home/TestimonialSection'));
 
+const DynamicPop = lazy(() => import('./Popup'));
+
 // Loader component
 const Loader = () => (
   <div className="loader text-center">
@@ -18,7 +20,10 @@ const Loader = () => (
 
 const Index = () => {
     return(
+      <>
+      
         <Suspense fallback={<Loader/>}>
+        <DynamicPop />
             <DynamicBanner />
             <DynamicSkills />
             <DynamicAbout PageName={'home'} />
@@ -26,6 +31,7 @@ const Index = () => {
             <DynamicProjects />
             <DynamicTestimonialSection />
         </Suspense>
+        </>
     )
 }
 

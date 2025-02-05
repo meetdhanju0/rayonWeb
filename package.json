@@ -5,14 +5,20 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "font-awesome": "^4.7.0",
+    "bootstrap": "^5.3.3",
+    "botframework-webchat": "^4.18.0",
+    "markdown-it-attrs-es5": "^2.0.2",
     "rc-image": "^7.11.0",
     "react": "^18.2.0",
     "react-collapse": "^5.1.1",
     "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.5",
     "react-icons": "^5.4.0",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.16.0",
+    "react-router-sitemap": "^1.2.0",
     "react-scripts": "^5.0.1",
+    "react-simple-chatbot": "^0.6.1",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {

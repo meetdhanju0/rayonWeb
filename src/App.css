@@ -21,6 +21,13 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+.popup-overlay {
+  z-index: 9999;
+}
+.popup-content {
+  max-width: 400px;
+}
+
 
 .loading-container {
   display: flex;

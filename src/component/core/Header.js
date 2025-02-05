@@ -150,14 +150,14 @@ const Header = () => {
                             <Link to="/portfolio" className={`nav-item nav-link ${pathname === '/portfolio' ? 'active' : ''}`}>
                                 Portfolio
                             </Link>
-                            <Link to="/contact" className={`nav-item nav-link ${pathname === '/contact' ? 'active' : ''}`}>
-                                Contact
-                            </Link>
                             <Link to="/training" className={`nav-item nav-link ${pathname === '/training' ? 'active' : ''}`}>
                             Training
                             </Link>
                             <Link to="/career" className={`nav-item nav-link ${pathname === '/career' ? 'active' : ''}`}>
                                 Career
+                            </Link>
+                            <Link to="/contact" className={`nav-item nav-link ${pathname === '/contact' ? 'active' : ''}`}>
+                                Contact
                             </Link>
                         </div>
                         <button onClick={handleShowModal} className="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">

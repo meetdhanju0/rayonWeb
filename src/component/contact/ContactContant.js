@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { BiLoaderCircle } from 'react-icons/bi';
-import { VscArchive } from 'react-icons/vsc';
+import { Helmet } from 'react-helmet-async';
 
 
 const ContactContant = () => {
@@ -34,7 +34,7 @@ const ContactContant = () => {
         setLoading(true);
         setSuccessMessage('');
         emailjs.send(
-            'service_wqzvvnl',
+            'service_hbzevvo',
             'template_bvynfqg',
             {
                 name: formData.name,
@@ -42,7 +42,7 @@ const ContactContant = () => {
                 subject: formData.subject,
                 message: formData.message,
             },
-            'tb1ZmJ7PCnRghiZiO'
+            'SqT44vVqpwTb018cW'
         ).then((result) => {
             setLoading(false);
             setSuccessMessage('Your message has been sent successfully!');
@@ -55,6 +55,10 @@ const ContactContant = () => {
 
     return (
         <>
+         <Helmet>
+        <title>Contact Us - Rayon Web Solutions</title>
+        <meta name="description" content="Get in touch with Rayon Web Solutions for expert web development, digital solutions, or to discuss your next project." />
+      </Helmet>
             <div className="container-xxl py-5">
                 <div className="container py-5 px-lg-5">
                     <div className="wow fadeInUp" data-wow-delay="0.1s">

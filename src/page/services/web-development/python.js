@@ -1,10 +1,17 @@
 import React from "react";
 import { FaPython, FaFlask} from "react-icons/fa";
 import { SiDjango } from "react-icons/si";
+import { Helmet } from 'react-helmet-async';
+
 
 
 const Python = () => {
     return (
+        <>
+         <Helmet>
+        <title>Python Development Solutions - Rayon Web Solutions</title>
+        <meta name="description" content="Discover expert Python development solutions at Rayon Web Solutions. We build robust, scalable, and secure applications tailored to your business needs." />
+      </Helmet>
         <div className="container-xxl py-5">
             <div className="container py-5 px-lg-5">
                 <div className="wow fadeInUp" data-wow-delay="0.1s">
@@ -54,6 +61,7 @@ const Python = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

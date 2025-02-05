@@ -1,8 +1,15 @@
 import React from "react";
 import { FaVuejs } from "react-icons/fa";
+import { Helmet } from 'react-helmet-async';
 
 const Vue = () => {
     return (
+        <>
+        <Helmet>
+        <title>Vue Development Solutions - Rayon Web Solutions</title>
+        <meta name="description" content="Get expert Vue.js development services at Rayon Web Solutions. Build lightweight, fast, and highly interactive web applications." />
+      </Helmet>
+        
         <div className="container-xxl py-5">
             <div className="container py-5 px-lg-5">
                 <div className="wow fadeInUp" data-wow-delay="0.1s">
@@ -55,6 +62,7 @@ const Vue = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

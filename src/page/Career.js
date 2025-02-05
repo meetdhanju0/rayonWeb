@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import Image from "rc-image";
+import { Helmet } from 'react-helmet-async';
 
 
 // Lazy load the component
@@ -16,6 +17,10 @@ const Loader = () => (
 const Career = () => {
     return(
         <Suspense fallback={<Loader/>}>
+          <Helmet>
+        <title>Careers - Rayon Web Solutions</title>
+        <meta name="description" content="Explore exciting career opportunities and join our innovative team at Rayon Web Solutions." />
+      </Helmet>
             <DynamicCareerContant/>
         </Suspense>
     )

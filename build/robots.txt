@@ -1,3 +1,7 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt for https://rayonweb.com
+# Allow all search engines full access to the website
 User-agent: *
 Disallow:
+
+# Sitemap location
+Sitemap: https://rayonweb.com/sitemap.xml
