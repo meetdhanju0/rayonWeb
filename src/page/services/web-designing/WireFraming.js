@@ -19,8 +19,9 @@ const WireFraming = () => {
                             <div className="service-icon flex-shrink-0">
                                 <SiWireshark size={50} />  
                             </div>
-                            <h5 className="mb-3 main-cl">Wire Framing</h5>
-                            <p className="m-0">Wire Framing.</p>
+                            <h5 className="mb-3 main-cl">Website Wireframing</h5>
+                            <p className="m-0">
+                            We design wireframes that prioritize usability, accessibility, and clear content structure, ensuring a seamless experience for e-commerce, corporate, or content-driven websites.</p>
                         </div>
                     </div>
 
@@ -29,8 +30,8 @@ const WireFraming = () => {
                             <div className="service-icon flex-shrink-0">
                                 <SiWireshark size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Wire Framing</h5>
-                            <p className="m-0">Wire Framing.</p>
+                            <h5 className="mb-3 main-cl">Mobile App Wireframing</h5>
+                            <p className="m-0">We design mobile app wireframes optimized for small screens and touch interactions, prioritizing ease of navigation and intuitive experiences for iOS and Android.</p>
                         </div>
                     </div>
 
@@ -39,8 +40,8 @@ const WireFraming = () => {
                             <div className="service-icon flex-shrink-0">
                                 <SiWireshark size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Wire Framing</h5>
-                            <p className="m-0">Wire Framing.</p>
+                            <h5 className="mb-3 main-cl">E-Commerce Wireframing</h5>
+                            <p className="m-0">We design e-commerce wireframes that ensure a smooth, frictionless journey from product discovery to checkout, prioritizing conversions and customer satisfaction.</p>
                         </div>
                     </div>
 
@@ -49,8 +50,8 @@ const WireFraming = () => {
                             <div className="service-icon flex-shrink-0">
                                 <SiWireshark size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Wire Framing</h5>
-                            <p className="m-0">Wire Framing.</p>
+                            <h5 className="mb-3 main-cl">Custom Software Wireframing</h5>
+                            <p className="m-0">We create interactive prototypes from wireframes, allowing you to test and validate design concepts before development, offering a realistic preview of the final product.</p>
                         </div>
                     </div>
                 </div>

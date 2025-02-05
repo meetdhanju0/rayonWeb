@@ -19,8 +19,9 @@ const DataMigration = () => {
                             <div className="service-icon flex-shrink-0">
                                 <TbDatabaseShare size={50} />  
                             </div>
-                            <h5 className="mb-3 main-cl">Data Migration</h5>
-                            <p className="m-0">Data Migration.</p>
+                            <h5 className="mb-3 main-cl">Legacy System Migration</h5>
+                            <p className="m-0">
+                            We specialize in migrating data from legacy systems to modern platforms, ensuring seamless transitions with minimal risk, whether moving to the cloud or switching software.</p>
                         </div>
                     </div>
 
@@ -29,8 +30,8 @@ const DataMigration = () => {
                             <div className="service-icon flex-shrink-0">
                                 <TbDatabaseShare size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Data Migration</h5>
-                            <p className="m-0">Data Migration.</p>
+                            <h5 className="mb-3 main-cl">Cloud Data Migration</h5>
+                            <p className="m-0">We help businesses migrate data to the cloud (AWS, Azure, Google Cloud, etc.), ensuring scalability, security, and cost-efficiency with optimized data structures.</p>
                         </div>
                     </div>
 
@@ -39,8 +40,8 @@ const DataMigration = () => {
                             <div className="service-icon flex-shrink-0">
                                 <TbDatabaseShare size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Data Migration</h5>
-                            <p className="m-0">Data Migration.</p>
+                            <h5 className="mb-3 main-cl">Database Migration</h5>
+                            <p className="m-0">We assist with database migrations, ensuring smooth transitions between DBMS, upgrades, or consolidations while preserving schema, data integrity, and relationships.</p>
                         </div>
                     </div>
 
@@ -49,8 +50,8 @@ const DataMigration = () => {
                             <div className="service-icon flex-shrink-0">
                                 <TbDatabaseShare size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Data Migration</h5>
-                            <p className="m-0">Data Migration.</p>
+                            <h5 className="mb-3 main-cl">Post-Migration Support</h5>
+                            <p className="m-0">We provide ongoing support post-migration, including testing, troubleshooting, and performance monitoring, to ensure smooth operation and long-term success of your new system.</p>
                         </div>
                     </div>
                 </div>

@@ -36,7 +36,7 @@ const Header = () => {
         'devops-services': {
             items: [
                 { name: 'DevOps Pipeline', icon: <SiJfrogpipelines size={70} />, to: 'services/devOps' },
-                { name: 'CI/CD Integration', icon: <GrIntegration size={70} />, to: 'services/ci/cd' },
+                { name: 'CI/CD Integration', icon: <GrIntegration size={70} />, to: 'services/ci-cd' },
                 { name: 'Cloud Automation', icon: <FaMixcloud size={70} />, to: 'services/cloud' }
             ],
             icon: <FaCogs />

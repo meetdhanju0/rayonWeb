@@ -19,8 +19,8 @@ const AwsEc2 = () => {
                             <div className="service-icon flex-shrink-0">
                                 <SiAmazonec2 size={50} />  
                             </div>
-                            <h5 className="mb-3 main-cl">Aws Ec2</h5>
-                            <p className="m-0">Aws Ec2.</p>
+                            <h5 className="mb-3 main-cl">Cost Optimization</h5>
+                            <p className="m-0">We help you identify the most cost-effective EC2 instance options, including Reserved Instances for long-term use or Spot Instances for short-term, highly flexible workloads.</p>
                         </div>
                     </div>
 
@@ -29,8 +29,8 @@ const AwsEc2 = () => {
                             <div className="service-icon flex-shrink-0">
                                 <SiAmazonec2 size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Aws Ec2</h5>
-                            <p className="m-0">Aws Ec2.</p>
+                            <h5 className="mb-3 main-cl">Security and Compliance Management</h5>
+                            <p className="m-0">We implement robust security practices to protect your EC2 instances, including VPC setup, Security Groups, IAM roles, and data encryption.</p>
                         </div>
                     </div>
 
@@ -39,8 +39,8 @@ const AwsEc2 = () => {
                             <div className="service-icon flex-shrink-0">
                                 <SiAmazonec2 size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Aws Ec2</h5>
-                            <p className="m-0">Aws Ec2.</p>
+                            <h5 className="mb-3 main-cl">Backup and Disaster Recovery</h5>
+                            <p className="m-0">We help you implement automated backup solutions using Amazon EBS snapshots and Amazon S3 for data storage.</p>
                         </div>
                     </div>
 
@@ -49,8 +49,8 @@ const AwsEc2 = () => {
                             <div className="service-icon flex-shrink-0">
                                 <SiAmazonec2 size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Aws Ec2</h5>
-                            <p className="m-0">Aws Ec2.</p>
+                            <h5 className="mb-3 main-cl">Migration to AWS EC2</h5>
+                            <p className="m-0">we help streamline the migration process to EC2. Our team ensures minimal disruption and downtime during the migration and helps you achieve a smooth transition to AWS.</p>
                         </div>
                     </div>
                 </div>

@@ -19,8 +19,8 @@ const SEO = () => {
                             <div className="service-icon flex-shrink-0">
                                 <FaSearch size={50} />  
                             </div>
-                            <h5 className="mb-3 main-cl">SEO</h5>
-                            <p className="m-0">SEO.</p>
+                            <h5 className="mb-3 main-cl">Technical SEO Expertise</h5>
+                            <p className="m-0">We optimize your website for search engines by improving site speed, mobile-friendliness, indexing, and schema markup, ensuring strong technical performance for better rankings.</p>
                         </div>
                     </div>
 
@@ -29,8 +29,9 @@ const SEO = () => {
                             <div className="service-icon flex-shrink-0">
                                 <FaSearch size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">SEO</h5>
-                            <p className="m-0">SEO.</p>
+                            <h5 className="mb-3 main-cl">Mobile Optimization</h5>
+                            <p className="m-0">
+                            We ensure your website is responsive and mobile-optimized, providing a great user experience and boosting your rankings in mobile search results.</p>
                         </div>
                     </div>
 
@@ -39,8 +40,8 @@ const SEO = () => {
                             <div className="service-icon flex-shrink-0">
                                 <FaSearch size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">SEO</h5>
-                            <p className="m-0">SEO.</p>
+                            <h5 className="mb-3 main-cl">Comprehensive SEO Strategy</h5>
+                            <p className="m-0">We create a tailored SEO strategy focusing on both on-page (content, meta tags) and off-page (link building, social signals) to boost your website's ranking, traffic, and conversions.</p>
                         </div>
                     </div>
 
@@ -49,8 +50,8 @@ const SEO = () => {
                             <div className="service-icon flex-shrink-0">
                                 <FaSearch size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">SEO</h5>
-                            <p className="m-0">SEO.</p>
+                            <h5 className="mb-3 main-cl">Quality Content Creation</h5>
+                            <p className="m-0">We create high-quality, SEO-friendly content that engages your audience, answers user queries, and incorporates relevant keywords to boost search engine rankings.</p>
                         </div>
                     </div>
                 </div>

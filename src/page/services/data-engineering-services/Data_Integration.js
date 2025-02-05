@@ -19,8 +19,9 @@ const DataIntegration = () => {
                             <div className="service-icon flex-shrink-0">
                                 <BsDatabaseFillAdd size={50} />  
                             </div>
-                            <h5 className="mb-3 main-cl">Data Integration</h5>
-                            <p className="m-0">Data Integration.</p>
+                            <h5 className="mb-3 main-cl">Real-Time Data Integration</h5>
+                            <p className="m-0">
+                            We provide real-time data integration using event-driven architectures and technologies like Apache Kafka and AWS Kinesis, ensuring up-to-date information across all systems.</p>
                         </div>
                     </div>
 
@@ -29,8 +30,8 @@ const DataIntegration = () => {
                             <div className="service-icon flex-shrink-0">
                                 <BsDatabaseFillAdd size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Data Integration</h5>
-                            <p className="m-0">Data Integration.</p>
+                            <h5 className="mb-3 main-cl">Cloud Data Integration</h5>
+                            <p className="m-0">We integrate data from cloud apps like Salesforce, Google Analytics, AWS, and Azure, helping you consolidate cloud and on-premise data for a complete view of your business.</p>
                         </div>
                     </div>
 
@@ -39,8 +40,8 @@ const DataIntegration = () => {
                             <div className="service-icon flex-shrink-0">
                                 <BsDatabaseFillAdd size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Data Integration</h5>
-                            <p className="m-0">Data Integration.</p>
+                            <h5 className="mb-3 main-cl">Real-Time Data Streaming</h5>
+                            <p className="m-0">We offer real-time data streaming solutions with tools like Apache Kafka and AWS Kinesis, enabling timely insights and automated actions for IoT, and customer interactions.</p>
                         </div>
                     </div>
 
@@ -49,8 +50,8 @@ const DataIntegration = () => {
                             <div className="service-icon flex-shrink-0">
                                 <BsDatabaseFillAdd size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Data Integration</h5>
-                            <p className="m-0">Data Integration.</p>
+                            <h5 className="mb-3 main-cl">Security and Compliance</h5>
+                            <p className="m-0">We ensure data integration complies with standards like GDPR, HIPAA, and SOC 2, implementing strong security measures to protect and secure your data throughout the process.</p>
                         </div>
                     </div>
                 </div>

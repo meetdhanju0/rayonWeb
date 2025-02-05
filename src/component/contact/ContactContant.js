@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { BiLoaderCircle } from 'react-icons/bi';
+import { VscArchive } from 'react-icons/vsc';
 
 
 const ContactContant = () => {
@@ -19,7 +20,6 @@ const ContactContant = () => {
             const timer = setTimeout(() => {
                 setSuccessMessage('');
             }, 5000); // 5000ms = 5 seconds
-
             return () => clearTimeout(timer);
         }
     }, [successMessage]);
@@ -33,7 +33,6 @@ const ContactContant = () => {
         e.preventDefault();
         setLoading(true);
         setSuccessMessage('');
-
         emailjs.send(
             'service_wqzvvnl',
             'template_bvynfqg',
@@ -53,7 +52,6 @@ const ContactContant = () => {
             setSuccessMessage('An error occurred, please try again.');
         });
     };
-
 
     return (
         <>

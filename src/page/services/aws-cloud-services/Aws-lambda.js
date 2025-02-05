@@ -19,8 +19,9 @@ const AwsLambda = () => {
                             <div className="service-icon flex-shrink-0">
                                 <SiAwslambda size={50} />  
                             </div>
-                            <h5 className="mb-3 main-cl">Aws Lambda</h5>
-                            <p className="m-0">Aws Lambda.</p>
+                            <h5 className="mb-3 main-cl">Serverless Architecture</h5>
+                            <p className="m-0">A
+                            We design and implement serverless architectures using AWS Lambda, API Gateway, DynamoDB, and SNS to build scalable, fault-tolerant applications without managing servers.</p>
                         </div>
                     </div>
 
@@ -29,8 +30,8 @@ const AwsLambda = () => {
                             <div className="service-icon flex-shrink-0">
                                 <SiAwslambda size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Aws Lambda</h5>
-                            <p className="m-0">Aws Lambda.</p>
+                            <h5 className="mb-3 main-cl">Integration with AWS Services</h5>
+                            <p className="m-0">We integrate AWS services like Lambda, API Gateway, DynamoDB, and SNS to create seamless, scalable solutions.</p>
                         </div>
                     </div>
 
@@ -39,8 +40,9 @@ const AwsLambda = () => {
                             <div className="service-icon flex-shrink-0">
                                 <SiAwslambda size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Aws Lambda</h5>
-                            <p className="m-0">Aws Lambda.</p>
+                            <h5 className="mb-3 main-cl">Event-Driven Application Development</h5>
+                            <p className="m-0">
+                            We help set up event triggers with AWS services like S3, DynamoDB, and API Gateway, enabling real-time responses for a seamless user experience.</p>
                         </div>
                     </div>
 
@@ -49,8 +51,8 @@ const AwsLambda = () => {
                             <div className="service-icon flex-shrink-0">
                                 <SiAwslambda size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Aws Lambda</h5>
-                            <p className="m-0">Aws Lambda.</p>
+                            <h5 className="mb-3 main-cl">Performance Optimization</h5>
+                            <p className="m-0">Using Amazon CloudWatch, we monitor and analyze Lambda functions, tracking metrics, logs, and error rates to ensure smooth, efficient performance with proactive issue resolution.</p>
                         </div>
                     </div>
                 </div>

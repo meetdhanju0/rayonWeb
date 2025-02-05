@@ -69,7 +69,7 @@ const AppRoutes = () =>{
                 <Route path="/services/angular" element={<ServiceAngular/>}/>
 
                 <Route path="/services/devOps" element={<ServiceDevOps/>}/>
-                <Route path="/services/ci/cd" element={<ServiceCICD/>}/>
+                <Route path="/services/ci-cd" element={<ServiceCICD/>}/>
                 <Route path="/services/cloud" element={<ServiceCloudAutomation/>}/>
 
                 <Route path="/services/aws-s3" element={<ServiceAwsS3/>}/>

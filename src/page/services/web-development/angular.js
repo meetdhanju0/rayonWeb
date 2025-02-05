@@ -19,8 +19,8 @@ const Angular = () => {
                             <div className="service-icon flex-shrink-0">
                                 <FaVuejs size={50} />  
                             </div>
-                            <h5 className="mb-3 main-cl">Angular</h5>
-                            <p className="m-0">Angular.</p>
+                            <h5 className="mb-3 main-cl">Component-Based Architecture</h5>
+                            <p className="m-0">Angular’s modular, component-driven approach enables better code organization, reusability, and easier maintenance.</p>
                         </div>
                     </div>
 
@@ -29,8 +29,8 @@ const Angular = () => {
                             <div className="service-icon flex-shrink-0">
                                 <FaVuejs size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Angular</h5>
-                            <p className="m-0">Angular.</p>
+                            <h5 className="mb-3 main-cl">Cross-Platform Support</h5>
+                            <p className="m-0">Angular is perfect for building web, mobile, and desktop applications. Whether you need a responsive web app or a mobile application with Ionic, we’ve got you covered.</p>
                         </div>
                     </div>
 
@@ -39,8 +39,8 @@ const Angular = () => {
                             <div className="service-icon flex-shrink-0">
                                 <FaVuejs size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Angular</h5>
-                            <p className="m-0">Angular.</p>
+                            <h5 className="mb-3 main-cl">Rich Ecosystem</h5>
+                            <p className="m-0">Angular comes with a comprehensive set of built-in tools, including routing, HTTP client, forms management, and state management, reducing the need for third-party libraries.</p>
                         </div>
                     </div>
 
@@ -49,8 +49,8 @@ const Angular = () => {
                             <div className="service-icon flex-shrink-0">
                                 <FaVuejs size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Angular</h5>
-                            <p className="m-0">Angular.</p>
+                            <h5 className="mb-3 main-cl">Seamless Integration</h5>
+                            <p className="m-0">Angular easily integrates with APIs, databases, and other back-end technologies. This allows us to build apps that scale and perform well as your business grows.</p>
                         </div>
                     </div>
                 </div>

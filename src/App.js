@@ -1,4 +1,5 @@
 import './App.css';
+import 'font-awesome/css/font-awesome.min.css';
 import React, { useState, useEffect, Suspense, startTransition } from 'react';
 import { BiSolidUpvote } from 'react-icons/bi';
 
@@ -39,6 +40,7 @@ function App() {
           <BiSolidUpvote size={50} />
         </div>
       )}
+
     </div>
   );
 }

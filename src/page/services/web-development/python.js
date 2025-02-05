@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPython, FaWhatsapp, FaFlask} from "react-icons/fa";
+import { FaPython, FaFlask} from "react-icons/fa";
 import { SiDjango } from "react-icons/si";
 
 
@@ -17,7 +17,7 @@ const Python = () => {
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div className="service-item d-flex flex-column text-center rounded">
                             <div className="service-icon flex-shrink-0">
-                                <FaWhatsapp size={50} />
+                                <FaPython size={50} />
                             </div>
                             <h5 className="mb-3 main-cl">Custom Python Development</h5>
                             <p className="m-0">We provide custom Python development solutions tailored to your business needs, ensuring high performance and scalability.</p>

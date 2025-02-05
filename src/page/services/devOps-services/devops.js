@@ -19,8 +19,8 @@ const Devops = () => {
                             <div className="service-icon flex-shrink-0">
                                 <FaCogs size={50} />  
                             </div>
-                            <h5 className="mb-3 main-cl">Devops</h5>
-                            <p className="m-0">Devops.</p>
+                            <h5 className="mb-3 main-cl">Increased Automation</h5>
+                            <p className="m-0">DevOps leverages automation tools and pipelines for repetitive tasks like testing, deployment, and monitoring. This improves consistency, reduces human error, and frees up your team to focus on innovation.</p>
                         </div>
                     </div>
 
@@ -29,8 +29,8 @@ const Devops = () => {
                             <div className="service-icon flex-shrink-0">
                                 <FaCogs size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Devops</h5>
-                            <p className="m-0">Devops.</p>
+                            <h5 className="mb-3 main-cl">Enhanced Security</h5>
+                            <p className="m-0">With automated security testing and continuous monitoring, DevOps ensures that security is integrated into every stage of development. This results in more secure code and faster identification of vulnerabilities.</p>
                         </div>
                     </div>
 
@@ -39,8 +39,8 @@ const Devops = () => {
                             <div className="service-icon flex-shrink-0">
                                 <FaCogs size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Devops</h5>
-                            <p className="m-0">Devops.</p>
+                            <h5 className="mb-3 main-cl">Faster Time to Market</h5>
+                            <p className="m-0">DevOps enables continuous integration (CI) and continuous delivery (CD), allowing your team to quickly push new features, improvements, and bug fixes into production.</p>
                         </div>
                     </div>
 
@@ -49,8 +49,8 @@ const Devops = () => {
                             <div className="service-icon flex-shrink-0">
                                 <FaCogs size={50} />
                             </div>
-                            <h5 className="mb-3 main-cl">Devops</h5>
-                            <p className="m-0">Devops.</p>
+                            <h5 className="mb-3 main-cl">Deployment and Support</h5>
+                            <p className="m-0">Our team also offers ongoing support and maintenance, ensuring your DevOps pipeline remains efficient, scalable, and up-to-date with the latest industry practices.</p>
                         </div>
                     </div>
                 </div>

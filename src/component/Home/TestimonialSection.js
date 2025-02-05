@@ -21,7 +21,13 @@ const Testimonials = () => {
                         interval={3000}
                     >
                         <div>
-                            <Image width={200} height={200} src="/testimonial-3.jpg" alt="Shirley Fultz" />
+                            <Image 
+                                width={200} 
+                                height={200} 
+                                src="/testimonial.webp" 
+                                alt="Shirley Fultz" 
+                                preview={false}
+                                />
                             <div className="myCarousel">
                                 <h3 className="mt-3 text-white1">Shirley Fultz</h3>
                                 <h4 className="main-cl">CEO</h4>
@@ -33,7 +39,13 @@ const Testimonials = () => {
                         </div>
 
                         <div>
-                            <Image width={200} height={200} src="/testimonial-2.jpg" alt="Daniel Keystone" />
+                            <Image 
+                                width={200} 
+                                height={200} 
+                                src="/Testimonial3.jpeg" 
+                                alt="Daniel Keystone" 
+                                preview={false}
+                                />
                             <div className="myCarousel">
                                 <h3 className="mt-3 text-white1">Daniel Keystone</h3>
                                 <h4 className="main-cl">CEO</h4>
@@ -45,7 +57,13 @@ const Testimonials = () => {
                         </div>
 
                         <div>
-                            <Image width={200} height={200} src="/testimonial-1.jpg" alt="Theo Sorel" />
+                            <Image 
+                                width={200} 
+                                height={200} 
+                                src="/Testimonial2.jpg" 
+                                alt="Theo Sorel"
+                                preview={false}
+                                />
                             <div className="myCarousel">
                                 <h3 className="mt-3 text-white1">Theo Sorel</h3>
                                 <h4 className="main-cl">CEO</h4>
