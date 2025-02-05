@@ -10,10 +10,10 @@ const Footer = () => {
                 <div className="container py-5 px-lg-5">
                     <div className="row g-5">
                         <div className="col-md-6 col-lg-3">
-                            <p className="section-title text-white h5 mb-4">Address<span /></p>
-                            <p><i className="fa fa-map-marker-alt me-3" />Head Office: Mohali, India</p>
-                            <p><i className="fa fa-map-marker-alt me-3" />Sales Office: Sri Ganganagar, India</p>
-                            <p><i className="fa fa-map-marker-alt me-3" />Sales Office: Canada</p>
+                            <p className="section-title text-white h5 mb-4">Our Offices<span /></p>
+                            <p><i className="fa fa-map-marker-alt me-3" />Canada</p>
+                            <p><i className="fa fa-map-marker-alt me-3" />Mohali, India</p>
+                            <p><i className="fa fa-map-marker-alt me-3" />Sri Ganganagar, India</p>
                             <p><i className="fa fa-envelope me-3" />info@rayonweb.com</p>
                             <div className="d-flex pt-2">
                                 <Link className="btn btn-outline-light btn-social" to="#"><FaTwitter size={20} /></Link>
