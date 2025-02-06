@@ -26,7 +26,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "sitemap": "node sitemap-generator.js"
   },
   "eslintConfig": {
     "extends": [

@@ -72,9 +72,16 @@ const AboutContantSection = ({ PageName }) => {
                                 </div>
                                 <Link to="/about" className="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3">Read More</Link>
                             </div>
-                            <div className="col-lg-6 col-12">
-                                <Image className="img-fluid wow zoomIn" height={''} width={500} data-wow-delay="0.5s" alt='new-test' src="/about.png" preview={false} style={{ maxWidth: '100%', height: 'auto' }}/>
-                            </div>
+                            <div className="col-lg-6">
+                            <Image 
+                                className="wow zoomIn responsive-image" 
+                                data-wow-delay="0.5s" 
+                                alt="new-test" 
+                                src="/about.png" 
+                                width={'100%'} 
+                                height={'auto'} 
+                                />
+                                </div>
                         </div>
                     </div>
                 </div>

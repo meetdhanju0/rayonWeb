@@ -27,6 +27,24 @@
 .popup-content {
   max-width: 400px;
 }
+.responsive-image {
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 768px) { /* Tablets */
+  .responsive-image {
+    height: auto !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 480px) { /* Phones */
+  .responsive-image {
+    height: auto !important;
+    width: 100% !important;
+  }
+}
 
 
 .loading-container {
