@@ -148,6 +148,14 @@
   }
 }
 
+/* Ensures the image stays within the container on small screens in about */
+@media (max-width: 768px) {
+  .wow.zoomIn {
+      width: 64%; /* Make the image fill the width on smaller screens */
+      height: auto;
+  }
+}
+
 
 .poppins-thin {
     font-family: "Poppins", sans-serif;
@@ -579,20 +587,28 @@ h6,
   margin-bottom: 20px;
 }
 
-.contact-info img {
-  width: 800px;
-  height: 450px;
-  margin-bottom: 20px;
+.contact-bg-img{
+  height: 480px;
+  background-image: url('../public/contact-bg-3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-info .control-label a{
+  margin-left: 20px;
+  color: black;
 }
 
 .contact-info h2 {
   font-size: 24px;
   margin-bottom: 10px;
+  color: wheat
 }
 
 .contact-info h4 {
   font-size: 16px;
   margin-bottom: 20px;
+  color: wheat
 }
 
 .contact-form .form-group {

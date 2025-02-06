@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
 const WhatsAppButton = () => {
-  const phoneNumber = "9783870541";
+  const phoneNumber = "+919783870541";
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {

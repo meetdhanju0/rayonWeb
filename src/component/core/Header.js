@@ -88,7 +88,6 @@ const Header = () => {
                         />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                        <span className="fa fa-bars"></span>
                         <FaBars size={30} />
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
