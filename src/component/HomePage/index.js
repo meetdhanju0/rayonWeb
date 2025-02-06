@@ -23,7 +23,7 @@ const Index = () => {
       <>
       
         <Suspense fallback={<Loader/>}>
-        <DynamicPop />
+            <DynamicPop />
             <DynamicBanner />
             <DynamicSkills />
             <DynamicAbout PageName={'home'} />

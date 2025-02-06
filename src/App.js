@@ -26,10 +26,10 @@ function App() {
       {/* Suspense wrapper for all async components to manage loading */}
       <Suspense fallback={<div className="loading-container"><div className="loader"></div></div>}>
         <AppRoutes />
-        <WhatsAppButton />
+        {/* <WhatsAppButton /> */}
         
         {/* Conditionally render Bot component based on scroll position */}
-        {showBtn && <Bot />}
+        {showBtn && <Bot />}/
       </Suspense>
     </div>
   );

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'rc-image'
 import emailjs from '@emailjs/browser';
-import { BiLoaderCircle } from 'react-icons/bi';
+import { BiLoaderCircle, BiMailSend, BiMap, BiPhone, BiWorld } from 'react-icons/bi';
 
-const ContactModal = ({show, handleClose}) => {
+const ContactModal = ({ show, handleClose }) => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -64,14 +64,20 @@ const ContactModal = ({show, handleClose}) => {
                                 <button type="button" className="btn-close" onClick={handleClose}></button>
                             </div>
                             <div className="modal-body">
-                                <div className="container contact">
+                                <div className="container contact ">
                                     <div className="row">
-                                        <div className="col-md-5">
+                                        <div className="col-md-5 contact-bg-img">
                                             <div className="contact-info">
                                                 <h2>Contact Us</h2>
-                                                <Image width={500} height={500} src="/hero.png" alt="image" />
                                                 <h4>We welcome your queries and are here to assist you.</h4>
-                                                <label className='control-label'><a href='mailto:info@rayonweb.com'>info@rayonweb.com</a></label>
+                                                <label className='control-label'><BiMailSend size={20}/><a href='mailto:info@rayonweb.com'>info@rayonweb.com</a></label>
+                                                <hr />
+                                                <label className='control-label'><BiMap size={20}/><a>Ajit Singh Nagar, Mohali, India</a></label>
+                                                <hr />
+                                                <label className='control-label'><BiWorld size={20}/><a href='www.rayonweb.com'>rayonweb.com</a></label>
+                                                <hr />
+                                                <label className='control-label'><BiPhone size={20}/><a>+919087654321</a></label>
+                                                <hr />
                                             </div>
                                         </div>
                                         <div className="col-md-7">
@@ -85,7 +91,7 @@ const ContactModal = ({show, handleClose}) => {
                                                             id="fname"
                                                             placeholder="Enter First Name"
                                                             name="fname"
-                                                            value={formData.fname}
+                                                            value={formData.name}
                                                             onChange={handleChange}
                                                             required
                                                         />
@@ -126,7 +132,7 @@ const ContactModal = ({show, handleClose}) => {
                                                             value={formData.message}
                                                             onChange={handleChange}
                                                             required
-                                                        ></textarea>
+                                                        />
                                                     </div>
                                                     <div className="mb-3">
                                                         <button type="submit" className="btn btn-primary" disabled={loading}>
